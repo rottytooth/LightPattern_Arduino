@@ -34,7 +34,7 @@ EosPatternStep* EosProgram::GetPattern()
 	program[17] = EosPatternStep(82, 0.100, 59, 9, -1, 'g'); // o
 	program[18] = EosPatternStep(84, 0.077, 60, 10, -1, 'r'); // end of string marker
 	program[19] = EosPatternStep(82, 0.100, 59, 9, 1, 'g'); // reset and new pic
-	program[20] = EosPatternStep(55, 1.000, 35, 3.2, 0, 'r');
+	program[20] = EosPatternStep(55, 1.000, 35, 3.2, -1, 'r');
 	program[21] = EosPatternStep(55, 1.000, 32, 2.8, 2, 'b'); // string
 	program[22] = EosPatternStep(58, 0.800, 35, 3.2, -2, 'r');
 	program[23] = EosPatternStep(61, 0.600, 36, 3.5, 0, 'r');
@@ -50,7 +50,7 @@ EosPatternStep* EosProgram::GetPattern()
 	program[33] = EosPatternStep(84, 0.077, 43, 4.5, 2, 'b'); // o
 	program[34] = EosPatternStep(87, 0.067, 44, 5, -1, 'g'); // end of string marker
 	program[35] = EosPatternStep(84, 0.077, 43, 4.5, 1, 'b'); // reset and new pic
-	program[36] = EosPatternStep(55, 1.000, 35, 3.2, 0, 'r');
+	program[36] = EosPatternStep(55, 1.000, 35, 3.2, -2, 'r');
 	program[37] = EosPatternStep(55, 1.000, 32, 2.8, 2, 'b'); // string
 	program[38] = EosPatternStep(58, 0.800, 35, 3.2, -2, 'r');
 	program[39] = EosPatternStep(61, 0.600, 35, 3.2, 0, 'r');
